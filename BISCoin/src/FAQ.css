@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'SFNS Text Bold', sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    src: url('/SFBold.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Bold Italic', sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    src: url('/SFBoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Heavy', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    src: url('/SFHeavy.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Heavy Italic', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    src: url('/SFHeavyItalic.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    src: url('/SFRegular.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Italic', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    src: url('/SFRegularItalic.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Light', sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    src: url('/SFLight.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Light Italic', sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    src: url('/SFLightItalic.ttf');
+}
+
+
+.root{
+    -fx-font-family: 'SFNS Text';
+    -fx-font-size: 14pt;
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #000000;
+}
+
+.TextField{
+    -fx-background-color: #a3a3a3;
+    -fx-text-fill: #000000;
+    
+}
+
+/*========================*/
+/* FAQ/GUIDES */
+/*========================*/
+
+#faqguides{
+    -fx-font-weight: bolder;
+    -fx-border-color: #FFFFFF;
+    -fx-border-width: 3;
+    -fx-text-fill: #FFFFFF;
+    -fx-pref-height: 30;
+    -fx-pref-width: 160;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+}
+
+
+#trv_LinkContainer {
+    -fx-max-width:200;
+    -fx-min-width:100;
+    -fx-background-color: #90caf9;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 5, 0, 0, 0);  
+}
+VBox{
+     -fx-padding: 10 100 100 100;
+     -fx-background-insets: 30 100 100 100;
+    
+   
+       /* 
+       -fx-background-color: #eeeeee ;
+     -fx-max-width:500;
+     -fx-min-width:200; 
+      */
+
+}
+#lbl_Title{
+    -fx-font-size: 34pt;
+    -fx-text-fill:  #000000;
+    -fx-padding: 10 100 0 150;
+}
+#hbx_Search {
+    -fx-max-width:300;
+    -fx-min-width:200;
+    -fx-padding: 10 100 0 150;
+}
+#txt_Search{
+    -fx-max-width:700;
+    -fx-min-width:400;
+    -fx-border-color: #000000;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 5, 0, 0, 0);  
+}
+
+#btn_Search{
+    -fx-max-width:200;
+    -fx-min-width:100;
+    -fx-text-fill: #FFFFFF;
+    -fx-border-color: #000000;
+    -fx-background-color: #000000;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+}
+
+#tbl_FaqResults{
+    -fx-max-width:800;
+    -fx-min-width:400;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+}
+
+
+#tbl_FaqResults  > .column-header-background > .filler {
+    -fx-background-color: #000000;
+
+}
+/*========================*/
+/* END OF FAQ/GUIDES */
+/*========================*/

@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'SFNS Text Bold', sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    src: url('/SFBold.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Bold Italic', sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    src: url('/SFBoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Heavy', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    src: url('/SFHeavy.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Heavy Italic', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    src: url('/SFHeavyItalic.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    src: url('/SFRegular.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Italic', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    src: url('/SFRegularItalic.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Light', sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    src: url('/SFLight.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Light Italic', sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    src: url('/SFLightItalic.ttf');
+}
+
+.root{
+    -fx-font-family: 'SFNS Text';
+    -fx-font-size: 14pt;
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #000000;
+}
+
+.TextField{
+    -fx-background-color: #a3a3a3;
+    -fx-text-fill: #000000;
+    
+}
+
+/*========================*/
+/*        SAM LK          */
+/*========================*/
+
+#txtSamLKHeading{
+    -fx-font-size: 20pt;
+    -fx-font-weight: bolder;
+}
+#txtSamLKTitle{
+    -fx-font-size: 16pt;
+}
+
+#txtUsefulLinksSamLK{
+    -fx-font-size: 20pt;
+    -fx-font-weight: bolder;
+}
+
+#lnkAvid{
+    -fx-text-fill: #000000;
+}
+
+#lnkSamLK{
+    -fx-text-fill: #000000;
+}

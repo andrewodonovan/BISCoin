@@ -1,0 +1,300 @@
+@font-face {
+    font-family: 'SFNS Text Bold', sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    src: url('/SFBold.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Bold Italic', sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    src: url('/SFBoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Heavy', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    src: url('/SFHeavy.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Heavy Italic', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    src: url('/SFHeavyItalic.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    src: url('/SFRegular.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Italic', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    src: url('/SFRegularItalic.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Light', sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    src: url('/SFLight.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Light Italic', sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    src: url('/SFLightItalic.ttf');
+}
+
+
+.root{
+    -fx-font-family: 'SFNS Text';
+    -fx-font-size: 14pt;
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #000000;
+}
+
+#btnhome{
+    -fx-pref-height: 30;
+    -fx-pref-width: 160;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+    -fx-background-color: inherit;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-font-style: normal;
+}
+
+#aboutUs{
+    -fx-pref-height: 30;
+    -fx-pref-width: 160;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+    -fx-background-color: inherit;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-font-style: normal;
+}
+
+#faqguides{
+    -fx-pref-height: 30;
+    -fx-pref-width: 160;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+    -fx-background-color: inherit;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-font-style: normal;
+}
+
+
+#buysell{
+    -fx-pref-height: 30;
+    -fx-pref-width: 160;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+    -fx-background-color: inherit;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-font-style: normal;
+}
+
+
+#contactUs{
+    -fx-pref-height: 30;
+    -fx-pref-width: 160;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+    -fx-background-color: inherit;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-font-style: normal;
+}
+
+#portfolio{
+    -fx-pref-height: 30;
+    -fx-pref-width: 160;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+    -fx-background-color: inherit;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-font-style: normal;
+}
+
+#btnhome:hover{
+    -fx-background-color: #363636;
+    -fx-font-weight: bolder;
+    -fx-text-fill: #FFFFFF;
+    -fx-pref-height: 30;
+    -fx-pref-width: 160;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+    -fx-font-style: normal;
+}
+
+
+#aboutUs:hover{
+    -fx-background-color: #363636;
+    -fx-font-weight: bolder;
+    -fx-text-fill: #FFFFFF;
+    -fx-pref-height: 30;
+    -fx-pref-width: 160;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+    -fx-font-style: normal;
+}
+
+#faqguides:hover{
+     -fx-background-color: #363636;
+    -fx-font-weight: bolder;
+    -fx-text-fill: #FFFFFF;
+    -fx-pref-height: 30;
+    -fx-pref-width: 160;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+    -fx-font-style: normal;
+}
+
+
+#buysell:hover{
+     -fx-background-color: #363636;
+    -fx-font-weight: bolder;
+    -fx-text-fill: #FFFFFF;
+    -fx-pref-height: 30;
+    -fx-pref-width: 160;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+    -fx-font-style: normal;
+}
+
+
+#contactUs:hover{
+     -fx-background-color: #363636;
+    -fx-font-weight: bolder;
+    -fx-text-fill: #FFFFFF;
+    -fx-pref-height: 30;
+    -fx-pref-width: 160;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+    -fx-font-style: normal;
+}
+
+#portfolio:hover{
+    -fx-background-color: #363636;
+    -fx-font-weight: bolder;
+    -fx-text-fill: #FFFFFF;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+    -fx-font-style: normal;
+}
+
+
+#menusep{
+    -fx-pref-width: 50;
+    -fx-background-color: #000000;
+    -fx-font-style: normal;
+}
+
+.separator *.line {
+    -fx-border-style: solid;
+    -fx-border-width: 0 0 1 0; /* its make really one-pixel-border */
+    -fx-border-color: #363636;
+}
+
+#menuBar{
+    -fx-font-size: 12pt;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+    -fx-background-color: inherit;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-style: normal;
+}
+
+
+.context-menu {
+    -fx-skin: "com.sun.javafx.scene.control.skin.ContextMenuSkin";
+    -fx-background-color: #000000;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-style: normal;
+}
+
+
+/* MENU BAR + Top-level MENU BUTTONS */
+/*** The menu bar itself ***/    
+.menu-bar {
+    -fx-background-color: inherit;
+}
+
+
+/*** Top-level menu itself (not selected / hovered) ***/
+.menu-bar > .container > .menu-button {
+    -fx-background-color: inherit;
+}
+
+/*** Top-level menu's label (not selected / hovered) ***/
+.menu-bar > .container > .menu-button > .label {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-font-style: normal;
+}
+
+/*** Top-level menu's label (disabled) ***/
+.menu-bar > .container > .menu-button > .label:disabled {
+    -fx-opacity: 1.0;
+}
+
+/*** Top-level menu itself (selected / hovered) ***/
+.menu-bar > .container > .menu-button:hover,
+.menu-bar > .container > .menu-button:focused,
+.menu-bar > .container > .menu-button:showing {
+    -fx-background-color: #727272;
+}
+
+/*** Top-level menu's label (selected / hovered) ***/
+.menu-bar > .container > .menu-button:hover > .label,
+.menu-bar > .container > .menu-button:focused > .label,
+.menu-bar > .container > .menu-button:showing > .label {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bolder;
+    -fx-font-style: normal;
+}
+
+.menu-item .label {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-font-style: normal;
+}
+
+.menu-item{
+    -fx-pref-height: 30;
+    -fx-pref-width: 160;  
+}
+
+.menu-item:focused {
+     -fx-background-color: #727272;
+     -fx-text-fill: #FFFFFF;
+     -fx-pref-height: 30;
+     -fx-pref-width: 160;
+     -fx-font-style: normal;
+}
+
+
+.menu-item:focused .label {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-font-style: normal;
+}
+
+#mainMenu{
+    -fx-pref-width: 1200;
+    -fx-background-color: #000000;
+}

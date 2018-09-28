@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'SFNS Text Bold', sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    src: url('/SFBold.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Bold Italic', sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    src: url('/SFBoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Heavy', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    src: url('/SFHeavy.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Heavy Italic', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    src: url('/SFHeavyItalic.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    src: url('/SFRegular.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Italic', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    src: url('/SFRegularItalic.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Light', sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    src: url('/SFLight.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Light Italic', sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    src: url('/SFLightItalic.ttf');
+}
+
+
+.root{
+    -fx-font-family: 'SFNS Text';
+    -fx-font-style: normal;
+    -fx-font-weight: normal;
+    -fx-font-size: 14pt;
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #000000;
+}
+
+.TextField{
+    -fx-background-color: #a3a3a3;
+    -fx-text-fill: #000000;
+}
+
+/*========================*/
+/*        ABOUT US        */
+/*========================*/
+
+#aboutUs{
+    -fx-font-weight: bold;
+    -fx-border-color: #FFFFFF;
+    -fx-border-width: 3;
+    -fx-text-fill: #FFFFFF;
+    -fx-pref-height: 30;
+    -fx-pref-width: 160;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+}
+
+#txtPassionHeading{
+    -fx-font-weight: bold;
+}
+
+#txtProblemHeading{
+    -fx-font-weight: bold;
+}
+
+#txtProductHeading{
+
+    -fx-font-weight: bold;
+}
+
+#hboxTxtPhone{
+    -fx-text-fill: #FFFFFF;
+}
+
+#hboxLnkWebsite{
+    -fx-text-fill: #FFFFFF;
+    -fx-border-color: transparent;
+}
+
+#hboxContact{
+    -fx-background-color: #000000;
+    -fx-text-fill: #FFFFFF;
+}
+
+#hboxContactContent{
+    -fx-background-color: #000000;
+    -fx-text-fill: #FFFFFF;
+}
+
+#txtFounders{
+    -fx-font-size: 16pt;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+}
+
+#txtPassion{
+    -fx-font-size: 13pt;
+}
+
+#txtProblem{
+    -fx-font-size: 13pt;
+}
+
+#txtProduct{
+    -fx-font-size: 13pt;
+}
+
+#ivF1{
+    -fx-border-width: 3;
+    -fx-border-color: #FFFFFF;
+}
+#ivF2{
+    -fx-border-width: 3;
+    -fx-border-color: #FFFFFF;
+}
+#ivF3{
+    -fx-border-width: 3;
+    -fx-border-color: #FFFFFF;
+}
+#ivF4{
+    -fx-border-width: 3;
+    -fx-border-color: #FFFFFF;
+}
+#ivF5{
+    -fx-border-width: 3;
+    -fx-border-color: #FFFFFF;
+}
+
+#txtClick{
+    -fx-font-size: 11pt;
+    -fx-font-style: italic;
+}

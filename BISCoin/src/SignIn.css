@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'SFNS Text Bold', sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    src: url('/SFBold.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Bold Italic', sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    src: url('/SFBoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Heavy', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    src: url('/SFHeavy.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Heavy Italic', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    src: url('/SFHeavyItalic.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    src: url('/SFRegular.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Italic', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    src: url('/SFRegularItalic.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Light', sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    src: url('/SFLight.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Light Italic', sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    src: url('/SFLightItalic.ttf');
+}
+.root{
+    font-family: 'SFNS Text';
+    -fx-font-style: normal;
+    -fx-font-size: 14pt;
+    -fx-background-image: url('Background.PNG');
+    -fx-text-fill: #000000;
+}
+
+.TextField{
+    -fx-background-color: #a3a3a3;
+    -fx-text-fill: #000000;
+    
+}
+
+/*========================*/
+/*        HOMEPAGE        */
+/*========================*/
+
+
+#panel2{
+    -fx-border-width: 0 1 0 0;
+    -fx-border-color: linear-gradient(to bottom, #ffffff, #000000, #000000, #ffffff);
+    -fx-text-fill: #000000;
+    -fx-background-color: rgba(256, 2576, 256, 0.6);
+    -fx-border-radius: 5 0 5 5;
+    -fx-background-radius: 5 0 5 5;
+
+}
+
+#panel3{
+    -fx-border-width: 0 0 0 1;
+    -fx-border-color: linear-gradient(to bottom, #ffffff, #000000, #000000, #ffffff);
+    -fx-text-fill: #000000;
+    -fx-background-color: rgba(256, 2576, 256, 0.6);
+    -fx-border-radius: 5 5 5 0;
+    -fx-background-radius: 5 5 5 0;
+}
+
+#lnkRegistration{ 
+    -fx-text-fill: #0000FF;
+    -fx-opacity: 1;
+    -fx-font-style: italic;
+}
+
+#lnkForgot{ 
+    -fx-text-fill: #0000FF;
+    -fx-font-size: 12pt;
+    -fx-opacity: 1;
+    -fx-font-style: italic;
+}
+
+#lnkRegistration:link{ 
+    -fx-text-fill: #FF00EA;
+    -fx-opacity: 1;
+    -fx-font-style: italic;
+}
+
+#lnkForgot:link{ 
+    -fx-text-fill: #FF00EA;
+    -fx-opacity: 1;
+    -fx-font-style: italic;
+}
+
+
+#loginhead{
+    -fx-font-weight: bold;
+}
+
+#panel3_lblHeader{
+    -fx-font-weight: 600;
+    
+}
+
+#txtEmail{
+  -fx-border-radius: 5 5 5 5;
+  -fx-background-radius: 5 5 5 5;
+  -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0, 0, 0);  
+}
+
+#txtPassword{
+  -fx-border-radius: 5 5 5 5;
+  -fx-background-radius: 5 5 5 5;
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 5, 0, 0, 0);  
+}
+
+#btnSignIn{
+    -fx-border-color: #FFFFFF;
+    -fx-border-width: 2;
+    -fx-text-fill: #FFFFFF;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+    -fx-background-color: #000000;
+}
+
+#btnSignIn:hover{
+    -fx-border-color: #FFFFFF;
+    -fx-border-width: 2;
+    -fx-text-fill: #FFFFFF;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+    -fx-background-color: #363636;
+}
+/*========================*/
+/* END OF HOMEPAGE */
+/*========================*/

@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'SFNS Text Bold', sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    src: url('/SFBold.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Bold Italic', sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    src: url('/SFBoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Heavy', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    src: url('/SFHeavy.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Heavy Italic', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    src: url('/SFHeavyItalic.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    src: url('/SFRegular.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Italic', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    src: url('/SFRegularItalic.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Light', sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    src: url('/SFLight.ttf');
+}
+
+@font-face {
+    font-family: 'SFNS Text Light Italic', sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    src: url('/SFLightItalic.ttf');
+}
+
+.root{
+    -fx-font-family: 'SFNS Text';
+    -fx-font-size: 14pt;
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #000000;
+}
+
+.TextField{
+    -fx-background-color: #a3a3a3;
+    -fx-text-fill: #000000;
+    
+}
+
+/*========================*/
+/* EXCHANGE */
+/*========================*/
+
+#buysell{
+    -fx-font-weight: bolder;
+    -fx-border-color: #FFFFFF;
+    -fx-border-width: 3;
+    -fx-text-fill: #FFFFFF;
+    -fx-pref-height: 30;
+    -fx-pref-width: 160;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+}
+
+.table-view > .column-header-background > .nested-column-header > .column-header .table-column {
+    -fx-background-color: #000000;
+    -fx-opacity: 1.0;
+    -fx-text-fill: #FFFFFF;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #FFFFFF;
+}
+
+#Header_SellPanel{
+    -fx-border-color: #000000;
+    -fx-border-width: 0.5;
+    -fx-border-radius: 5 5 0 0;
+    -fx-background-radius: 5 5 0 0;
+    -fx-font-weight: bold;
+}   
+
+
+#vboxSellPanel{
+    -fx-border-color: #000000;
+    -fx-border-width: 0.5;
+    -fx-border-radius: 5 5 5 5;
+    -fx-background-radius: 5 5 5 5;
+}
+
+#btnSearch{
+    -fx-border-color: #FFFFFF;
+    -fx-border-width: 2;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+    -fx-background-color: #000000;
+    -fx-font-size: 11pt;
+}
+
+#btnSearch:hover{
+    -fx-border-color: #FFFFFF;
+    -fx-font-size: 11pt;
+    -fx-font-weight: bolder;
+    -fx-border-width: 2;
+    -fx-text-fill: #FFFFFF;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+    -fx-background-color: #363636;
+}
+
+#Header_ConversionPanel{
+    -fx-border-color: #000000;
+    -fx-border-width: 0.5;
+    -fx-border-radius: 5 5 0 0;
+    -fx-background-radius: 5 5 0 0;
+    -fx-font-weight: bold;
+   
+}
+
+#conversion_Header{
+    -fx-font-weight: bold;
+    -fx-fill: #FFFFFF;
+}
+
+#vboxConversionPanel{
+    -fx-border-color: #000000;
+    -fx-border-width: 0.5;
+    -fx-border-radius: 5 5 5 5;
+    -fx-background-radius: 5 5 5 5;
+}
+
+#hboxConvBox1{
+    -fx-font-size: 12pt;
+}
+
+#hboxConvBox2{
+    -fx-font-size: 12pt;
+}
+
+#Header_BuyPanel{
+    -fx-border-color: #000000;
+    -fx-border-width: 0.5;
+    -fx-border-radius: 8 8 0 0;
+    -fx-background-radius: 8 8 0 0;
+    -fx-font-weight: bold;
+}
+
+#vboxBuyPanel{
+    -fx-border-color: #000000;
+    -fx-border-width: 0.5;
+    -fx-border-radius: 5 5 5 5;
+    -fx-background-radius: 5 5 5 5;
+}
+
+#hboxBuyBox1{
+    -fx-font-size: 12pt;
+}
+
+#hboxBuyBox2{
+    -fx-font-size: 12pt;
+}
+
+#hboxSellBox1{
+    -fx-font-size: 12pt;
+}
+
+#hboxSellBox2{
+    -fx-font-size: 12pt;
+}
+
+/*========================*/
+/* END OF EXCHANGE */
+/*========================*/
